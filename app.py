@@ -14,4 +14,4 @@ def display():
     url='https://dhondi.cmrithyderabad.edu.in/sharedfiles/e0d341de643812c29a19aac35b9e7d87/studentPhotos/'+roll+'.jpg'
     return render_template('home.html',photo=True,li=url)
 if __name__=='__main__':
-    app.run(debug=True,host='192.168.0.105')
+    app.run(debug=True,host='0.0.0.0')
